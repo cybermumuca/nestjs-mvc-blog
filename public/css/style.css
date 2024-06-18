@@ -2,24 +2,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation-wrapper {
+.navigation {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
 }
 
-.navigation {
+.navigation ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: blue;
-  padding: 1rem;
+  gap: 2.5rem;
+  padding: 1.25rem;
+  margin: 0 auto;
 }
 
-.navigation a {
-  color: white;
+.navigation ul li a {
+  font-size: 1.5rem;
   text-decoration: none;
-  padding: 1rem;
+  color: inherit;
 }
